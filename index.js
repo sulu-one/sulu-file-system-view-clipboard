@@ -35,7 +35,6 @@ Command.prototype.copyFilenamesWithPath = function copyFilenamesWithPath() {
 Command.prototype.pasteFilenamesToPath = function pasteFilenamesToPath() {
 	var view = this.GUI.activeView().model;
 	var c = clipboard;
-	debugger
 	return false
 };
 
