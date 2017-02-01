@@ -1,31 +1,31 @@
 {
   "suluPackage": {
-    "hotkeys" : [
+    "hotkeys": [
       {
-        "key" : "ctrl+y" , 
-        "function" : "copyFilenamesWithPath"
-      },      
-      {
-        "key" : "ctrl+v" , 
-        "function" : "pasteFilenamesToPath"
+        "key": "ctrl+y",
+        "function": "copyFilenamesWithPath"
       },
       {
-        "key" : "ctrl+shift+y" , 
-        "function" : "copyFilenames"
+        "key": "ctrl+v",
+        "function": "pasteFilenamesToPath"
       },
       {
-        "key" : "ctrl+shift+c" , 
-        "function" : "copyFileSystemViewPath"
+        "key": "ctrl+shift+y",
+        "function": "copyFilenames"
       },
       {
-        "key" : "ctrl+shift+alt+y" , 
-        "function" : "copyFilenamesWithExtendedInfo"
+        "key": "ctrl+shift+c",
+        "function": "copyFileSystemViewPath"
+      },
+      {
+        "key": "ctrl+shift+alt+y",
+        "function": "copyFilenamesWithExtendedInfo"
       }
     ]
   },
   "name": "sulu-file-system-view-clipboard",
   "description": "SULU Clipboard Manager",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
