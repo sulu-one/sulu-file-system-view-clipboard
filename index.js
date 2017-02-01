@@ -76,11 +76,6 @@ Command.prototype.copyFilenames = function copyFilenames() {
 
 var Plugin = function (client) {
 	this.command = new Command(); 
-	client.app.registerHotKey("ctrl+y", this.command.copyFilenamesWithPath);
-	client.app.registerHotKey("ctrl+v", this.command.pasteFilenamesToPath);
-	client.app.registerHotKey("ctrl+shift+y", this.command.copyFilenames);
-	client.app.registerHotKey("ctrl+shift+c", this.command.copyFileSystemViewPath);
-	client.app.registerHotKey("ctrl+shift+alt+y", this.command.copyFilenamesWithExtendedInfo);
 };
 
 module.exports = Plugin;

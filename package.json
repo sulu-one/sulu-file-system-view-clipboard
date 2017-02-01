@@ -1,5 +1,28 @@
 {
-  "suluPackage": true,
+  "suluPackage": {
+    "hotkeys" : [
+      {
+        "key" : "ctrl+y" , 
+        "function" : "copyFilenamesWithPath"
+      },      
+      {
+        "key" : "ctrl+v" , 
+        "function" : "pasteFilenamesToPath"
+      },
+      {
+        "key" : "ctrl+shift+y" , 
+        "function" : "copyFilenames"
+      },
+      {
+        "key" : "ctrl+shift+c" , 
+        "function" : "copyFileSystemViewPath"
+      },
+      {
+        "key" : "ctrl+shift+alt+y" , 
+        "function" : "copyFilenamesWithExtendedInfo"
+      }
+    ]
+  },
   "name": "sulu-file-system-view-clipboard",
   "description": "SULU Clipboard Manager",
   "version": "1.0.2",
